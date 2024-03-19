@@ -22,3 +22,42 @@ Fax: 617-258-8762 ] ... I COMPLETE THESE DEGREE FROM MYSELF HOUSE THROUGH ONLINE
 BEMSID : 1H982839zaQ☆
 MEMSID : H264
 PhD. COURSE ID : P033:T-7B-10HF [ FLYGHT CONTROLLER SYSTEM ]
+
+
+classWindowHandeler extends StreamHandeler
+
+&#123;&#×003B;{
+  
+    publicWindowHandeler &#40;&#×003B;() &#41;&#×003B;
+   
+   { &#123;&#×003B;
+     
+      ... &#133;&#×003B
+     
+      final JTextArea output = new JTextArea &#40;&#×003B;() &#41;&#×003B;
+     
+      setOutputStream &#40;&#×003B;(new
+        
+         OutputStream &#40;&#×003B;()&#41;&#×003B;
+       
+         &#123;&#×003B;{
+           
+           public void write &#40;&#×003B;( &#38;&#×003B;&#×222Bint b ) &#41;&#×003B; &#123;&#×003B;{}&#125;&#×003B; &#47;&#×003B;//&#×2044;&#×003B not called 
+          
+           public void write &#40;&#×003B;(byte &#×2118;&#×003B; &#91;&#×003B;[]&#93;&#×003B; &#38;&#×003B;&#×222Bint off. &#38;&#×003B;&#×222Bint len) 
+           
+           &#123;&#×003B;{
+              
+              output.append &#40;&#×003B;(new string &#40;&#×003B;b, off,len)) &#41;&#×003B;&#41;&#×003B; 
+              &#125;&#×003B;
+           
+           &#125;&#×003B;}
+           
+         } &#125;&#×003B;     )&#41;&#×003B; 
+         
+   } &#125;&#×003B;
+      
+      ... &#133;&#×003B;  
+      
+ &#125;&#×003B;}
+        
