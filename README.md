@@ -30,7 +30,7 @@ classWindowHandeler extends StreamHandeler
   
     publicWindowHandeler &#40;&#×003B;() &#41;&#×003B;
    
-   { &#123;&#×003B;
+   &#123;&#×003B{
      
       ... &#133;&#×003B
      
@@ -55,7 +55,7 @@ classWindowHandeler extends StreamHandeler
            
          } &#125;&#×003B;     )&#41;&#×003B; 
          
-   } &#125;&#×003B;
+   }&#125;&#×003B;
       
       ... &#133;&#×003B;  
       
