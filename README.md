@@ -28,35 +28,35 @@ classWindowHandeler extends StreamHandeler
 
 {
   
-    publicWindowHandeler &#40;&#×003B;() &#41;&#×003B;
+    publicWindowHandeler() 
    
    {
      
-      ... &#133;&#×003B
+      ... 
      
-      final JTextArea output = new JTextArea &#40;&#×003B;() &#41;&#×003B;
+      final JTextArea output = new JTextArea () 
      
-      setOutputStream &#40;&#×003B;(new
+      setOutputStream(new
         
-         OutputStream &#40;&#×003B;()&#41;&#×003B;
+         OutputStream ()
        
-         &#123;&#×003B;{
+         {
            
-           public void write &#40;&#×003B;( &#38;&#×003B;&#×222Bint b ) &#41;&#×003B; &#123;&#×003B;{}&#125;&#×003B; &#47;&#×003B;//&#×2044;&#×003B not called 
+           public void write &#40;&#×003B;( &#38;&#×003B;&#×222Bint b ) &#41;&#×003B; &#123;&#×003B;{} &#125;&#×003B; &#47;&#×003B;// &#×2044;&#×003B not called 
           
-           public void write &#40;&#×003B;(byte &#×2118;&#×003B; &#91;&#×003B;[]&#93;&#×003B; &#38;&#×003B;&#×222Bint off. &#38;&#×003B;&#×222Bint len) 
+           public void write &#40;&#×003B;(byte &#×2118;&#×003B; &#91;&#×003B;[] &#93;&#×003B; &#38;&#×003B;&#×222Bint off. &#38;&#×003B;&#×222Bint len) 
            
-           &#123;&#×003B;{
+           {
               
-              output.append &#40;&#×003B;(new string &#40;&#×003B;b, off,len)) &#41;&#×003B;&#41;&#×003B; 
-              &#125;&#×003B;
+              output.append ( new string &#40;&#×003B;b, off,len )  )
            
-           &#125;&#×003B;}
+           }
            
-         }) 
-         
-   }      
-      ... &#133;&#×003B;  
+   }) 
+            
+   
+  }      
+      ...  
       
  }
         
