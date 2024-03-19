@@ -25,7 +25,35 @@ PhD. COURSE ID : P033:T-7B-10HF [ FLYGHT CONTROLLER SYSTEM ]
 
 
 
-           
-           
- 
+
+
+
+class WindowHandler extends StreamHandeler 
+{
+  public windowHandler ()
+  {
+     ...
+     final JTextArea output = JTextArea ();
+     setOutputStream ( new
+        OutputStream()
+        {
+           public void write ( int b ) {} // not called
+           public void write ( byte [] b, int off, int len )
+           {
+              output.append ( new String ( b, off, len ));
+           }
+         }) 
+    } 
+    ...
+  } 
+
+  class WindowHandler extends StreamHandeler 
+  {
+     ...
+     public void publish ( LogRecord record )
+     {
+        super.publish ( record )
+        flush ();
+     }
+   }  
         
