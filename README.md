@@ -26,7 +26,7 @@ PhD. COURSE ID : P033:T-7B-10HF [ FLYGHT CONTROLLER SYSTEM ]
 
 classWindowHandeler extends StreamHandeler
 
-&#123; &#×003B;{
+&#123;&#×003B;{
   
     publicWindowHandeler &#40;&#×003B;() &#41;&#×003B;
    
@@ -59,5 +59,5 @@ classWindowHandeler extends StreamHandeler
       
       ... &#133;&#×003B;  
       
- &#125;&#×003B;}
+ }&#125;&#×003B;
         
