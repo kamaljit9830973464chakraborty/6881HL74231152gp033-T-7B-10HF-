@@ -24,39 +24,8 @@ MEMSID : H264
 PhD. COURSE ID : P033:T-7B-10HF [ FLYGHT CONTROLLER SYSTEM ]
 
 
-classWindowHandeler extends StreamHandeler
 
-{
-  
-    publicWindowHandeler() 
-   
-   {
-     
-      ... 
-     
-      final JTextArea output = new JTextArea () 
-     
-      setOutputStream(new
-        
-         OutputStream ()
-       
-         {
            
-           public void write &#40;&#×003B;( &#38;&#×003B;&#×222Bint b ) &#41;&#×003B; &#123;&#×003B;{} &#125;&#×003B; &#47;&#×003B;// &#×2044;&#×003B not called 
-          
-           public void write &#40;&#×003B;(byte &#×2118;&#×003B; &#91;&#×003B;[] &#93;&#×003B; &#38;&#×003B;&#×222Bint off. &#38;&#×003B;&#×222Bint len) 
            
-           {
-              
-              output.append ( new string &#40;&#×003B;b, off,len )  )
-           
-           }
-           
-   }) 
-            
-   
-  }      
-      ...  
-      
- }
+ 
         
