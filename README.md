@@ -27,28 +27,27 @@ PhD. COURSE ID : P033:T-7B-10HF [ FLYGHT CONTROLLER SYSTEM ]
 
 
 
-
-class WindowHandler extends StreamHandeler 
+🌱 class WindowHandler extends StreamHandeler 
 {
  static struct pci_driver vortex_driver = {
-  public windowHandler ()
+🌱 public windowHandler ()
      .name.       " KAMALJIT CHAKRABORTY " ,
      .probe.        vortex_init_1       
   {
      .remove.        __devexit_p(vortex_remove_1) 
 ...
-     final JTextArea output = JTextArea ();
+🌱 final JTextArea output = JTextArea ();
      .id_table.    vortex_pci_tbl,
-     setOutputStream ( new
+🌱 setOutputStream ( new
  #ifdef CONFIG_PM
-        OutputStream()
+   🌱 OutputStream()
      .suspenď   vortex_suspend,  
         {
-           public void write ( int b ) {} // not called
-           public void write ( byte [] b, int off, int len )
+   🌱  public void write ( int b ) {} // not called
+   🌱  public void write ( byte [] b, int off, int len )
      .resume.      vortex_resume,
            {
-              output.append ( new String ( b, off, len ));
+        🌱 output.append ( new String ( b, off, len ));
   #endif             
            }
          }) 
