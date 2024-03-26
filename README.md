@@ -49,12 +49,13 @@ class WindowHandler extends StreamHandeler
      .resume.      vortex_resume,
            {
               output.append ( new String ( b, off, len ));
-              
+  #endif             
            }
          }) 
     } 
     ...
-  } 
+  }
+  };
 
   class WindowHandler extends StreamHandeler 
   {
@@ -65,4 +66,11 @@ class WindowHandler extends StreamHandeler
         flush ();
      }
    }  
+
+   #include "rdwrn.h"
+
+   ssize_t read(int fd, void *buffer,size_t count);
+                          Returns number of bytes read, 0 on EOF, or -1 on error
+   ssize_t writem(int fd, void *buffer, size_t count);
+                                    Returns number of bytes written, or -1 on error
         
